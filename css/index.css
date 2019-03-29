@@ -1,0 +1,460 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background: #f8f8f8!important;
+	min-width: 1280px;
+}
+
+
+/*导航栏*/
+
+#header {
+	background: url(../img/p-header.jpg) center 0 no-repeat;
+	height: 95px;
+	position: relative;
+	z-index: 100;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+#top {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+}
+
+#logo {
+	background: url(../img/logo.jpg) no-repeat;
+	width: 300px;
+	height: 95px;
+	float: left;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#header ul {
+	float: right;
+	position: absolute;
+	height: 100px;
+	right: 0;
+	top: 0;
+}
+
+#header ul li {
+	float: left;
+	height: 100px;
+	position: relative;
+}
+
+#index {
+	background: #ad3635;
+	font-weight: bold;
+	height: 70px;
+}
+
+#header ul a {
+	padding: 30px 15px 0;
+	font-size: 16px;
+	color: #333333;
+	line-height: 64px;
+	margin-right: 10px;
+	min-width: 70px;
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+#header ul a:hover {
+	color: #ad3635;
+}
+
+
+/*轮播图*/
+
+#lunbo {
+	background: url(../img/0.jpg) center 0 no-repeat;
+	width: 100%;
+	height: 700px;
+	position: relative;
+	overflow: hidden;
+	min-width: 1200px;
+}
+
+#D3 {
+	width: 370px;
+	height: 105px;
+	color: #fff;
+	position: absolute;
+	top: 240px;
+	left: 9%;
+	line-height: 50px;
+}
+
+[src="img/1.png"] {
+	float: left;
+	padding-right: 20px;
+}
+
+h2 {
+	font-size: 50px;
+	padding-top: 5px;
+}
+
+#dd {
+	position: absolute;
+	top: 750px;
+	left: 47.5%;
+}
+
+#dian {
+	overflow: hidden;
+	width: 100px;
+	margin: 0 auto;
+}
+
+#dian li {
+	float: left;
+	padding: 5px;
+}
+
+.sp60 {
+	height: 60px;
+}
+
+
+/*新闻区*/
+
+#news {
+	width: 1200px;
+	height: 390px;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+}
+
+.news-list {
+	width: 1230px;
+	position: relative;
+	height: 360px;
+	overflow: hidden;
+}
+
+#new {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.item {
+	background: #fff;
+	width: 380px;
+	height: 340px;
+	border-bottom: 2px solid #e9e9e9;
+	float: left;
+	margin: 0 30px 30px 0;
+}
+
+.item:hover {
+	background: #9f3124;
+	color: #FFFFFF;
+}
+
+.hover {
+	width: 380px;
+	height: 210px;
+	display: block;
+	float: left;
+	position: relative;
+	zoom: 1;
+	overflow: hidden;
+}
+
+.hover img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.hover:hover img {
+	width: 104%!important;
+	height: 104%!important;
+	top: -2%;
+	left: -2%;
+}
+
+.text {
+	padding: 20px 20px 0;
+	clear: both;
+}
+
+.text a {
+	color: #333;
+	font-weight: bold;
+	display: block;
+	height: 24px;
+	overflow: hidden;
+}
+
+.text a:hover {
+	text-decoration: underline;
+}
+
+.text p {
+	font-size: 12px;
+	height: 24px;
+	color: #999;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.item:hover .text a,
+.item:hover .text p {
+	color: #fff;
+}
+
+
+/*商务合作*/
+
+#business {
+	background: url(../img/i-business.jpg) center center no-repeat;
+	height: 400px;
+	clear: both;
+	padding-top: 60px;
+}
+
+#b-2 {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+}
+
+#b-2 h3 {
+	font-size: 30px;
+	color: #ccc;
+	line-height: 36px;
+	height: 115px;
+	text-align: center;
+}
+
+#b-2 h3 p {
+	font-weight: normal!important;
+	color: #999!important;
+	font-size: 14px!important;
+}
+
+#b-2 ul {
+	clear: both;
+}
+
+#b-2 ul li {
+	width: 240px;
+	float: left;
+}
+
+#b-2 ul li a {
+	width: 100px;
+	height: 100px;
+	border: 5px solid #ccc;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+#b-2 ul li a i {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	background: url(../img/cs-ico.png) 0 -770px no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+#b-2 ul li a #i-2 {
+	background-position: 0 -870px;
+}
+
+#b-2 ul li a #i-3 {
+	background-position: 0 -970px;
+}
+
+#b-2 ul li a #i-4 {
+	background-position: 0 -1070px;
+}
+
+#b-2 ul li a #i-5 {
+	background-position: 0 -1170px;
+}
+
+#b-2 ul li a:hover {
+	background: #9f3124;
+	border-color: #9f3124;
+	text-decoration: none;
+}
+
+#b-2 ul li a:hover #i-1 {
+	background-position: 0 -820px;
+}
+
+#b-2 ul li a:hover #i-2 {
+	background-position: 0 -920px;
+}
+
+#b-2 ul li a:hover #i-3 {
+	background-position: 0 -1020px;
+}
+
+#b-2 ul li a:hover #i-4 {
+	background-position: 0 -1120px;
+}
+
+#b-2 ul li a:hover #i-5 {
+	background-position: 0 -1220px;
+}
+
+#b-2 ul li a:hover span {
+	opacity: 1;
+}
+
+#b-2 ul li a span {
+	opacity: 0;
+	color: #fff;
+	padding-top: 60px;
+	display: block;
+}
+
+#about {
+	padding-top: 55px;
+	clear: both;
+	text-align: center!important;
+}
+
+#about a {
+	border-radius: 15px;
+	background: none;
+	border: 1px solid #999;
+	color: #999;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	padding: 0 20px;
+	font-size: 16px;
+}
+
+#about a:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+
+/*合作伙伴*/
+
+#parents {
+	width: 1200px;
+	height: 262px;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+}
+
+#parents h3 {
+	height: 40px;
+	font-size: 18px;
+}
+
+#p-link li,
+#p-link a {
+	width: 198px;
+	height: 72px;
+	display: block;
+	background: #fff;
+	text-align: center;
+	line-height: 72px;
+}
+
+#p-link li {
+	padding: 1px;
+	float: left;
+}
+
+#p-link a:hover {
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+    background: #eee;
+}
+
+
+/*页面底部*/
+
+#footer {
+	border-top: 10px solid #9f3124;
+	background: #222;
+	padding-top: 30px;
+	min-height: 220px;
+	color: #666;
+	margin-top: 50px;
+	clear: both;
+}
+
+#p-f {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+}
+
+#p-f .min {
+	float: left;
+	padding: 10px 20px;
+	width: 100px;
+	color: #fff;
+	margin-left: 280px;
+}
+
+.min i {
+	background: #fff url(../img/code.jpg) center center no-repeat;
+	width: 100px;
+	height: 100px;
+	display: block;
+	border-radius: 6px;
+}
+
+.min+div {
+	line-height: 40px;
+}
+
+.min+div p {
+	padding-left: 32px;
+	margin-left: -10px;
+	height: 34px;
+	overflow: hidden;
+}
+
+
+/*回到顶部*/
+
+#backtop {
+	background: url(../img/cs-ico.png) no-repeat;
+	cursor: pointer;
+	position: fixed;
+	right: 20px;
+	bottom: 10%;
+	height: 60px;
+	width: 50px;
+	z-index: 10;
+}
+
+#backtop:hover {
+	background-position: 0 -60px;
+}
